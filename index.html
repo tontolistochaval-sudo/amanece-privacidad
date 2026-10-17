@@ -1,0 +1,303 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Amanece · Política de privacidad</title>
+    <meta
+      name="description"
+      content="Política de privacidad de Amanece, la app de buenos días, rutinas y hábitos." />
+    <style>
+      :root {
+        --bg: #fbf6ef;
+        --text: #1c1c1e;
+        --muted: #5f5f66;
+        --accent: #b9441a;
+        --card: #ffffff;
+        --line: #e8e2da;
+      }
+      @media (prefers-color-scheme: dark) {
+        :root {
+          --bg: #12141c;
+          --text: #f2f2f5;
+          --muted: #a7a7b0;
+          --accent: #ff9f0a;
+          --card: #1c1e26;
+          --line: #2c2e38;
+        }
+      }
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        background: var(--bg);
+        color: var(--text);
+        font:
+          17px/1.6 -apple-system,
+          BlinkMacSystemFont,
+          'Segoe UI',
+          Roboto,
+          sans-serif;
+      }
+      main {
+        max-width: 720px;
+        margin: 0 auto;
+        padding: 32px 16px 64px;
+      }
+      header {
+        display: flex;
+        align-items: center;
+        gap: 14px;
+        margin-bottom: 8px;
+      }
+      header svg {
+        flex: none;
+        border-radius: 14px;
+      }
+      h1 {
+        font-size: 30px;
+        line-height: 1.2;
+        margin: 0;
+      }
+      h2 {
+        font-size: 21px;
+        margin: 36px 0 8px;
+      }
+      h3 {
+        font-size: 17px;
+        margin: 22px 0 4px;
+      }
+      p,
+      li {
+        color: var(--text);
+      }
+      .muted {
+        color: var(--muted);
+        font-size: 15px;
+      }
+      .lang {
+        display: flex;
+        gap: 8px;
+        margin: 18px 0 28px;
+      }
+      .lang a {
+        color: var(--accent);
+        text-decoration: none;
+        border: 1px solid var(--line);
+        border-radius: 999px;
+        padding: 8px 16px;
+        min-height: 44px;
+        display: inline-flex;
+        align-items: center;
+      }
+      .card {
+        background: var(--card);
+        border: 1px solid var(--line);
+        border-radius: 20px;
+        padding: 4px 20px;
+      }
+      a {
+        color: var(--accent);
+      }
+      a:focus-visible {
+        outline: 3px solid var(--accent);
+        outline-offset: 2px;
+      }
+      hr {
+        border: 0;
+        border-top: 1px solid var(--line);
+        margin: 48px 0;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <header>
+        <svg width="56" height="56" viewBox="0 0 1024 1024" aria-hidden="true">
+          <defs>
+            <linearGradient id="s" x1="0" y1="0" x2="0" y2="1">
+              <stop offset="0" stop-color="#E4512A" />
+              <stop offset=".55" stop-color="#F5873F" />
+              <stop offset="1" stop-color="#FFC27C" />
+            </linearGradient>
+          </defs>
+          <rect width="1024" height="1024" fill="url(#s)" />
+          <g stroke="#FFF7EC" stroke-width="46" stroke-linecap="round" fill="none">
+            <path d="M344 600A168 168 0 0 1 680 600Z" fill="#FFF7EC" stroke="none" />
+            <line x1="313" y1="485" x2="247" y2="447" />
+            <line x1="397" y1="401" x2="359" y2="335" />
+            <line x1="512" y1="370" x2="512" y2="294" />
+            <line x1="627" y1="401" x2="665" y2="335" />
+            <line x1="711" y1="485" x2="777" y2="447" />
+            <line x1="222" y1="600" x2="802" y2="600" />
+            <line x1="342" y1="704" x2="682" y2="704" opacity=".85" />
+          </g>
+        </svg>
+        <h1>Política de privacidad de Amanece</h1>
+      </header>
+      <p class="muted">Última actualización: 17 de octubre de 2026</p>
+      <nav class="lang" aria-label="Idioma">
+        <a href="#es" lang="es">Español</a>
+        <a href="#en" lang="en">English</a>
+      </nav>
+
+      <section id="es" lang="es">
+        <h2>En pocas palabras</h2>
+        <div class="card">
+          <ul>
+            <li>
+              <strong>Tus datos se quedan en tu móvil.</strong> Hábitos, rutina, diario, intenciones
+              y ajustes se guardan solo en tu dispositivo.
+            </li>
+            <li><strong>No hay cuentas, ni anuncios, ni analítica, ni rastreo.</strong></li>
+            <li>La app no vende ni comparte tus datos con nadie.</li>
+          </ul>
+        </div>
+
+        <h2>Qué sale de tu móvil y para qué</h2>
+        <h3>Ubicación aproximada (opcional), para el tiempo</h3>
+        <p>
+          Si das permiso, Amanece obtiene tu ubicación aproximada y envía las coordenadas
+          <strong>redondeadas a unos 1 km</strong> a
+          <a href="https://open-meteo.com/">Open-Meteo</a> para conseguir la previsión del tiempo.
+          La app no guarda tu ubicación ni la envía a ningún otro sitio. Si no das permiso, la app
+          funciona igual, sin el tiempo. Puedes retirar el permiso en cualquier momento desde los
+          ajustes del móvil.
+        </p>
+
+        <h3>Noticias</h3>
+        <p>
+          Para mostrarte las noticias del día, la app pide a nuestro servidor (alojado en
+          <a href="https://supabase.com/">Supabase</a>) los temas que elegiste, el idioma y la
+          fecha. No se envía ningún dato que te identifique. El servidor obtiene los titulares de
+          los canales RSS públicos de los medios y puede resumirlos con un modelo de IA (<a
+            href="https://www.anthropic.com/"
+            >Anthropic</a
+          >); a ese servicio solo se le envía el texto de las noticias, nunca datos tuyos. Como
+          cualquier servidor web, Supabase puede registrar temporalmente la dirección IP de la
+          petición por motivos técnicos y de seguridad.
+        </p>
+        <p>
+          Al abrir una noticia se carga la web del medio, que tiene su propia política de
+          privacidad.
+        </p>
+
+        <h3>Música</h3>
+        <p>
+          Si configuras una playlist, el botón de música abre Spotify o Apple Music. La app no
+          recibe nada de esos servicios.
+        </p>
+
+        <h3>Avisos</h3>
+        <p>
+          Los avisos (buenos días, recordatorios de hábitos y hora de dormir) se programan en tu
+          propio móvil. No usamos notificaciones push desde un servidor.
+        </p>
+
+        <h2>Copias de seguridad</h2>
+        <p>
+          Desde Ajustes puedes exportar tus datos a un archivo. Ese archivo lo guardas o compartes
+          tú donde quieras; Amanece no lo sube a ningún sitio.
+        </p>
+
+        <h2>Cómo borrar tus datos</h2>
+        <p>
+          Como todo está en tu móvil, basta con desinstalar la app para borrarlo. No guardamos
+          ninguna copia en nuestros servidores.
+        </p>
+
+        <h2>Menores</h2>
+        <p>Amanece no está dirigida a menores de 13 años y no recoge datos personales de nadie.</p>
+
+        <h2>Cambios</h2>
+        <p>Si esta política cambia, actualizaremos esta página y la fecha de arriba.</p>
+
+        <h2>Contacto</h2>
+        <p>
+          Para cualquier duda sobre privacidad, escribe a
+          <a href="mailto:CORREO_DE_CONTACTO">CORREO_DE_CONTACTO</a>.
+        </p>
+      </section>
+
+      <hr />
+
+      <section id="en" lang="en">
+        <h2>In short</h2>
+        <div class="card">
+          <ul>
+            <li>
+              <strong>Your data stays on your phone.</strong> Habits, routine, journal, intentions
+              and settings are stored only on your device.
+            </li>
+            <li><strong>No accounts, no ads, no analytics, no tracking.</strong></li>
+            <li>The app does not sell or share your data with anyone.</li>
+          </ul>
+        </div>
+
+        <h2>What leaves your phone and why</h2>
+        <h3>Approximate location (optional), for the weather</h3>
+        <p>
+          If you allow it, Amanece gets your approximate location and sends the coordinates,
+          <strong>rounded to about 1 km</strong>, to
+          <a href="https://open-meteo.com/">Open-Meteo</a> to get the weather forecast. The app does
+          not store your location or send it anywhere else. Without permission the app works the
+          same, just without the weather. You can revoke the permission at any time in your phone
+          settings.
+        </p>
+
+        <h3>News</h3>
+        <p>
+          To show you today’s news, the app asks our server (hosted on
+          <a href="https://supabase.com/">Supabase</a>) for the topics you chose, the language and
+          the date. Nothing that identifies you is sent. The server gets headlines from the news
+          outlets’ public RSS feeds and may summarise them with an AI model (<a
+            href="https://www.anthropic.com/"
+            >Anthropic</a
+          >); only the text of the news is sent to that service, never your data. Like any web
+          server, Supabase may temporarily log the request’s IP address for technical and security
+          reasons.
+        </p>
+        <p>Opening an article loads the outlet’s website, which has its own privacy policy.</p>
+
+        <h3>Music</h3>
+        <p>
+          If you set up a playlist, the music button opens Spotify or Apple Music. The app receives
+          nothing from those services.
+        </p>
+
+        <h3>Notifications</h3>
+        <p>
+          Notifications (good morning, habit reminders and bedtime) are scheduled on your own phone.
+          We don’t send push notifications from a server.
+        </p>
+
+        <h2>Backups</h2>
+        <p>
+          In Settings you can export your data to a file. You decide where to save or share it;
+          Amanece doesn’t upload it anywhere.
+        </p>
+
+        <h2>How to delete your data</h2>
+        <p>
+          Since everything lives on your phone, uninstalling the app deletes it. We keep no copy on
+          our servers.
+        </p>
+
+        <h2>Children</h2>
+        <p>
+          Amanece is not directed at children under 13 and collects no personal data from anyone.
+        </p>
+
+        <h2>Changes</h2>
+        <p>If this policy changes, we’ll update this page and the date above.</p>
+
+        <h2>Contact</h2>
+        <p>
+          For any privacy question, write to
+          <a href="mailto:CORREO_DE_CONTACTO">CORREO_DE_CONTACTO</a>.
+        </p>
+      </section>
+    </main>
+  </body>
+</html>

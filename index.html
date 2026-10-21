@@ -211,8 +211,10 @@
           los planetas. Para sugerirte miradores y lugares oscuros cercanos, envía a nuestro
           servidor (Supabase) tu ubicación <strong>redondeada a unos 10 km</strong>; el servidor
           consulta <a href="https://www.openstreetmap.org/">OpenStreetMap</a> y guarda el resultado
-          por zona (no por persona) para no repetir la consulta. No se guarda nada que te
-          identifique.
+          por zona (no por persona) para no repetir la consulta. Si nuestro servidor no responde, el
+          móvil hace esa misma consulta directamente a OpenStreetMap (Nominatim), con la misma
+          ubicación redondeada, y guarda el resultado en el móvil una semana. No se guarda nada que
+          te identifique.
         </p>
 
         <h3>Música</h3>
@@ -318,7 +320,10 @@
           phone. To suggest nearby viewpoints and dark places, it sends our server (Supabase) your
           location <strong>rounded to about 10 km</strong>; the server queries
           <a href="https://www.openstreetmap.org/">OpenStreetMap</a> and stores the result per area
-          (not per person) to avoid repeating the query. Nothing that identifies you is stored.
+          (not per person) to avoid repeating the query. If our server doesn’t respond, the phone
+          makes that same query directly to OpenStreetMap (Nominatim), with the same rounded
+          location, and keeps the result on the phone for a week. Nothing that identifies you is
+          stored.
         </p>
 
         <h3>Music</h3>
